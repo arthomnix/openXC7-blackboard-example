@@ -1,6 +1,6 @@
 FAMILY  	= zynq7
 PART    	= xc7z007sclg400-1
-JTAG_LINK 	= --fpga-part xc7z007sclg400 -c ft2232 --freq 3000000
+JTAG_LINK 	= --fpga-part xc7z007sclg400 --cable ft2232
 PROJECT 	= test
 TOP_VERILOG	= test.sv
 CHIPDB  	= ${ZYNQ7_CHIPDB}
