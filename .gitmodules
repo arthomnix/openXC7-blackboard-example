@@ -1,0 +1,3 @@
+[submodule "fpgacapZero"]
+	path = fpgacapZero
+	url = https://github.com/lcapossio/fpgacapZero
